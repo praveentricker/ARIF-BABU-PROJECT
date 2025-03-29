@@ -67,7 +67,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
    };
 
    if ((event.body.toLowerCase() == "owner") || (event.body.toLowerCase() == "Owner")) {
-     return api.sendMessage("༻𝐎𝐖𝐍𝐄𝐑:- ☞ABHI BABU☜ ༺ ༒𝚈𝚘𝚞 𝙲𝚊𝚗 𝙲𝚊𝚕𝚕 𝙷𝚒𝚖 〠 𝓟𝓾𝓻𝓿 〠.༒ ༒𝐇𝐢𝐬 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐢𝐝༒:- ☞https://www.facebook.com/profile.php?id=61555214872841☜", threadID);
+     return api.sendMessage("༻𝐎𝐖𝐍𝐄𝐑:- ☞ARIF-BABU☜ ༺ ༒𝚈𝚘𝚞 𝙲𝚊𝚗 𝙲𝚊𝚕𝚕 𝙷𝚒𝚖 〠 𝓟𝓾𝓻𝓿 〠.༒ ༒𝐇𝐢𝐬 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐢𝐝༒:- ☞https://www.facebook.com/profile.php?id=61553634015672&mibextid=kFxxJD☜", threadID);
    };
 
    if ((event.body.toLowerCase() == "tumhe banaya kon hai") || (event.body.toLowerCase() == "tumko banaya kisne")) {
@@ -246,5 +246,4 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
    mess = "{name}"
 
   if (event.body.includes("Bot") == 1 ||
-   (event.body.includes("bot") == 1 ||
- 
+   (event.body.includes(
